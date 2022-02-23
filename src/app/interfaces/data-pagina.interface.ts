@@ -10,3 +10,18 @@ export interface DataPagina  {
     "equipo_trabajo"?: string[];
 }
 
+export interface DataEquipo {
+    frase?:     string;
+    nombre?:    string;
+    subtitulo?: string;
+    twitter?:   string;
+    url?:       string;
+}
+
+export interface ProductoIdx {
+    categoria?: string;
+    cod?:       string;
+    titulo?:    string;
+    url?:       string;
+}
+
