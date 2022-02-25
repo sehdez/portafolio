@@ -12,6 +12,8 @@ import { ItemComponent } from './pages/item/item.component';
 
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
+import { LoadingComponent } from './shared/loading/loading.component';
+import { SearchComponent } from './pages/search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,9 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    LoadingComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
